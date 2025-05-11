@@ -84,80 +84,43 @@
       class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
       id="about"
     >
-      <!-- Left column -->
-      <div class="w-full xl:w-2/5 p-12 overflow-hidden">
-        <img
-          src="./layouts/assets/profile3.png"
-          alt="your name"
-          class="rounded-3xl mx-auto w-full md:w-4/5"
-        />
-        <div class="flex mt-16 mb-16 flex-row space-x-6 justify-center">
-          <a
-            href="http://www.linkedin.com/in/bankole-ibrahim-287429169
-                    "
-            class=""
-          >
-            <img
-              width="46"
-              height="45"
-              src="./layouts/assets/linkedin-icon.svg"
-              alt="Linkedin"
-              class="text-white -mt-1 hover:bg-[#F62BA5] rounded-md"
-            />
-          </a>
-          <a href="https://github.com/ibrahimbank" class="">
-            <img
-              width="47"
-              height="40"
-              src="./layouts/assets/github-icon.svg"
-              alt="GitHub"
-              class="text-white p-2 hover:bg-[#F62BA5] rounded-md"
-            />
-          </a>
-          <a href="#" class="">
-            <img
-              width="45"
-              height="35"
-              src="./layouts/assets/twitter-icon.svg"
-              alt="Twitter"
-              class="text-white p-2 hover:bg-[#F62BA5] rounded-md"
-            />
-          </a>
-          <a href="mailto:bankoleibrahim96@gmail.com" class="">
-            <img
-              width="48"
-              height="40"
-              src="./layouts/assets/email-icon.svg"
-              alt="Email"
-              class="text-white p-1 hover:bg-[#F62BA5] rounded-md"
-            />
-          </a>
-        </div>
-      </div>
-
-      <!-- Right column -->
+      <!-- Main content -->
       <div
-        class="flex flex-col w-full p-2 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
+        class="flex flex-col w-full p-2 justify-center lg:items-start overflow-y-hidden"
       >
-        <h1
-          class="font-semibold font-poppins text-4xl text-white md:text-2xl lg:text-5xl text-center md:text-center"
-        >
-          Hello!<br />
-          I'm <span class="main-font">Bankole Ibrahim</span>, a Frontend
-          Developer
-        </h1>
+        <div class="space-y-6">
+          <h1
+            class="font-semibold font-poppins text-4xl text-white md:text-2xl lg:text-5xl text-center md:text-center"
+          >
+            Hello!<br />
+            I'm <span class="main-font">Bankole Ibrahim</span>, a Frontend
+            Developer
+          </h1>
+          <div class="w-24 h-1 bg-[#F62BA5] rounded-full"></div>
+        </div>
         <p
           class="font-thin font-montserra text-white mt-20 text-2xl md:text-2xl lg:text-2xl text-center md:text-left"
         >
-          Experienced Front End Developer with a proven track record of over three years in web development. Specializing in frontend technologies, I excel in designing and optimizing interactive, user-friendly, and feature-rich responsive websites. My expertise includes leveraging the power of the React JavaScript frameworks and other tools to meet design requirements and exceed client expectations.
-
+          Experienced Front End Developer with a proven track record of over
+          three years in web development. Specializing in frontend technologies,
+          I excel in designing and optimizing interactive, user-friendly, and
+          feature-rich responsive websites. My expertise includes leveraging the
+          power of the React JavaScript frameworks and other tools to meet
+          design requirements and exceed client expectations.
         </p>
         <p
-          class="font-thin font-montserra text-white mt-16 text-2xl md:text-2xl lg:text-2xl text-center md:text-left"
+          class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-center md:text-left"
         >
-          My strengths lie in combining logical problem-solving with creative solutions, ensuring the delivery of efficient and impactful web solutions. With meticulous attention to detail, I am dedicated to producing high-quality work that aligns with the latest industry standards.
-
-          Throughout my journey in web development, I have cultivated technical expertise and a keen understanding of evolving technologies. I am now eager to contribute my skills to an organization that values innovation and is committed to delivering cutting-edge web solutions. Join me as I continue to push the boundaries of web development and create exceptional online experiences.
+          My strengths lie in combining logical problem-solving with creative
+          solutions, ensuring the delivery of efficient and impactful web
+          solutions. With meticulous attention to detail, I am dedicated to
+          producing high-quality work that aligns with the latest industry
+          standards. Throughout my journey in web development, I have cultivated
+          technical expertise and a keen understanding of evolving technologies.
+          I am now eager to contribute my skills to an organization that values
+          innovation and is committed to delivering cutting-edge web solutions.
+          Join me as I continue to push the boundaries of web development and
+          create exceptional online experiences.
         </p>
         <div class="flex space-x-10 my-2 md:items-center justify-center mb-16">
           <a
@@ -166,7 +129,7 @@
             rel="noopener noreferrer"
           >
             <button
-              class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-20 flex items-center space-x-3 border-solid border-2 border-white text-xl hover:bg-slate-800"
+              class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-20 flex items-center space-x-3 border-solid border-2 border-white text-xl hover:bg-slate-800 transition-colors duration-300"
             >
               Projects
             </button>
@@ -177,10 +140,52 @@
             rel="noopener noreferrer"
           >
             <button
-              class="px-8 py-4 bg-button rounded-xl text-white font-bold font-poppins mt-20 flex items-center text-xl hover:border-2 hover:bg-slate-800"
+              class="px-8 py-4 bg-button rounded-xl text-white font-bold font-poppins mt-20 flex items-center text-xl hover:border-2 hover:bg-slate-800 transition-colors duration-300"
             >
               Resume
             </button>
+          </a>
+        </div>
+        <div class="flex mt-16 mb-16 flex-row space-x-6 justify-center">
+          <a
+            href="https://www.linkedin.com/in/ibrahim-bankole/"
+            class="hover:opacity-80 transition-opacity duration-300"
+            target="_blank"
+          >
+            <img
+              width="46"
+              height="45"
+              src="./layouts/assets/linkedin-icon.svg"
+              alt="Linkedin"
+              class="text-white -mt-1 hover:bg-[#F62BA5] rounded-md"
+            />
+          </a>
+          <a
+            href="https://github.com/ibrahimbank"
+            class="hover:opacity-80 transition-opacity duration-300"
+            target="_blank"
+          >
+            <img
+              width="47"
+              height="40"
+              src="./layouts/assets/github-icon.svg"
+              alt="GitHub"
+              class="text-white p-2 hover:bg-[#F62BA5] rounded-md"
+            />
+          </a>
+
+          <a
+            href="mailto:bankoleibrahim96@gmail.com"
+            class="hover:opacity-80 transition-opacity duration-300"
+            target="_blank"
+          >
+            <img
+              width="48"
+              height="40"
+              src="./layouts/assets/email-icon.svg"
+              alt="Email"
+              class="text-white p-1 hover:bg-[#F62BA5] rounded-md"
+            />
           </a>
         </div>
       </div>
@@ -191,8 +196,8 @@
       <!-- Project One -->
       <div
         class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        id="project-two"
       >
-        <!-- Left column -->
         <div
           class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
         >
@@ -204,13 +209,705 @@
           <h1
             class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-12 underline decoration-slate-500"
           >
+            NCHF - National Cancer Health Fund
+          </h1>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Approach
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Developed and maintained the NCHF portal, a government-backed
+            platform designed to facilitate financial support for indigent
+            cancer patients in Nigeria. Collaborated with cross-functional teams
+            to build user-centric interfaces that enabled patient registration,
+            profile management, application tracking, and multi-stage approval
+            workflows involving healthcare staff and regulatory bodies.
+            Implemented features to enhance data validation, session handling,
+            and user access control across patient and staff modules.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Contributed to the optimization of the platform's performance and
+            usability, helping improve access to life-saving cancer treatments
+            nationwide.
+          </p>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Tech Stack
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Next.js &nbsp TypeScript &nbsp Material-UI &nbsp GraphQL &nbsp
+            Apollo Client &nbsp Redux &nbsp Apexcharts
+          </p>
+          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
+            <a
+              href="https://nchf.emgeresources.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
+              >
+                Live Demo
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- Right column -->
+        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
+          <img
+            src="/layouts/assets/nchf.png"
+            alt="NCHF Platform"
+            class="rounded-3xl text-white"
+          />
+          <div class="flex items-center mt-10 justify-center">
+            <div>
+              <a href="#project-three">
+                <button
+                  class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
+                >
+                  <span class="text-white text-sm font-montserrat font-thin"
+                    >Next</span
+                  >
+                </button>
+              </a>
+              <div class="mx-5 mt-2">
+                <span class="m_scroll_arrows one"></span>
+                <span class="m_scroll_arrows two"></span>
+                <span class="m_scroll_arrows three"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project Two -->
+
+      <div
+        class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        id="project-three"
+      >
+        <div
+          class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
+        >
+          <h1
+            class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-12 underline decoration-slate-500"
+          >
+            NELFUND - Student Loan Portal
+          </h1>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Approach
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Contributed to the development of the NELFUND Student Loan Portal,
+            an initiative by the Federal Government of Nigeria aimed at
+            providing interest-free loans to eligible students pursuing higher
+            education. Utilized Next.js and Material UI to create responsive and
+            accessible user interfaces, ensuring a seamless user experience
+            across devices. Integrated GraphQL APIs via Apollo Client to
+            facilitate efficient data fetching and state management.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Implemented key features including multi-step user registration with
+            JAMB verification, secure authentication flows, and dynamic
+            dashboards for both applicants and administrative staff.
+            Collaborated with cross-functional teams to ensure compliance with
+            security standards and optimized performance, contributing to the
+            platform's mission of breaking financial barriers in education.
+          </p>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Tech Stack
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            React &nbsp TypeScript &nbsp Tailwind CSS &nbsp Redux Toolkit &nbsp
+            JWT Authentication
+          </p>
+          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
+            <a
+              href="https://nelf.gov.ng/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
+              >
+                Live Demo
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- Right column -->
+        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
+          <img
+            src="/layouts/assets/nelfund.png"
+            alt="NELF Platform"
+            class="rounded-3xl text-white"
+          />
+          <div class="flex items-center mt-10 justify-center">
+            <div>
+              <a href="#project-four">
+                <button
+                  class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
+                >
+                  <span class="text-white text-sm font-montserrat font-thin"
+                    >Next</span
+                  >
+                </button>
+              </a>
+              <div class="mx-5 mt-2">
+                <span class="m_scroll_arrows one"></span>
+                <span class="m_scroll_arrows two"></span>
+                <span class="m_scroll_arrows three"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project Three -->
+
+      <div
+        class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        id="project-four"
+      >
+        <div
+          class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
+        >
+          <h1
+            class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-12 underline decoration-slate-500"
+          >
+            Anutio
+          </h1>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Approach
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Contributed to the development of Anutio, an AI-driven career
+            guidance platform designed to assist students and professionals in
+            navigating their career paths. Implemented responsive and accessible
+            user interfaces using Reactjs and Material UI, ensuring a seamless
+            experience across web and mobile platforms. Integrated REST APIs to
+            enable real-time data interactions, facilitating features such as
+            skill tracking, resume generation, and career mapping. Collaborated
+            with cross-functional teams to enhance user engagement through
+            personalized dashboards and interactive components. Ensured optimal
+            performance and scalability, contributing to Anutio's mission of
+            democratizing access to career development tools.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Contributed to the development of the platform's core features,
+            including user profiles, networking tools, and content management
+            systems. Implemented real-time notifications and messaging features
+            to enhance user engagement and interaction.
+          </p>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Tech Stack
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            React &nbsp Material Ui Client
+          </p>
+          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
+            <a
+              href="https://anutio.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
+              >
+                Live Demo
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- Right column -->
+        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
+          <img
+            src="/layouts/assets/anutio.png"
+            alt="Anutio Platform"
+            class="rounded-3xl text-white"
+          />
+          <div class="flex items-center mt-10 justify-center">
+            <div>
+              <a href="#project-five">
+                <button
+                  class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
+                >
+                  <span class="text-white text-sm font-montserrat font-thin"
+                    >Next</span
+                  >
+                </button>
+              </a>
+              <div class="mx-5 mt-2">
+                <span class="m_scroll_arrows one"></span>
+                <span class="m_scroll_arrows two"></span>
+                <span class="m_scroll_arrows three"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project Four -->
+
+      <div
+        class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        id="project-five"
+      >
+        <div
+          class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
+        >
+          <h1
+            class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-12 underline decoration-slate-500"
+          >
+            Everything Property
+          </h1>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Approach
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Developed and maintained the Everything Property platform, an online
+            real estate marketplace connecting property seekers with verified
+            brokers, developers, and landlords across Nigeria. Utilized Nuxt.js
+            and Vue.js to create responsive, SEO-optimized user interfaces,
+            enhancing user experience and accessibility.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Implemented features such as multi-role registration flows (Seeker,
+            Broker, Company), dynamic property listings with advanced search and
+            filtering options, and interactive dashboards for user engagement.
+            Collaborated with cross-functional teams to integrate RESTful APIs
+            via Axios, ensuring efficient data fetching and state management
+            with Vuex. Focused on performance optimization and scalability to
+            support a growing user base in the Nigerian real estate market.
+          </p>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Tech Stack
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Nuxt.js &nbsp Vue.js &nbsp Vuex &nbsp SCSS &nbsp REST &nbsp APIs
+            &nbsp Axios &nbsp Google Maps API
+          </p>
+          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
+            <a
+              href="https://everythingproperty.ng/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
+              >
+                Live Demo
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- Right column -->
+        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
+          <img
+            src="/layouts/assets/everything.png"
+            alt="Everything Property Platform"
+            class="rounded-3xl text-white"
+          />
+          <div class="flex items-center mt-10 justify-center">
+            <div>
+              <a href="#project-six">
+                <button
+                  class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
+                >
+                  <span class="text-white text-sm font-montserrat font-thin"
+                    >Next</span
+                  >
+                </button>
+              </a>
+              <div class="mx-5 mt-2">
+                <span class="m_scroll_arrows one"></span>
+                <span class="m_scroll_arrows two"></span>
+                <span class="m_scroll_arrows three"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project Five -->
+
+      <div
+        class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        id="project-six"
+      >
+        <div
+          class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
+        >
+          <h1
+            class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-12 underline decoration-slate-500"
+          >
+            NCAP - National Cancer Access Partnership
+          </h1>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Approach
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Developed and maintained the NCAP Inventory Management System, a
+            platform designed to streamline the distribution and management of
+            affordable cancer medications across Nigeria. Utilized Next.js and
+            Material UI to create responsive and user-friendly interfaces,
+            facilitating efficient inventory tracking and reporting for
+            participating healthcare institutions. Integrated GraphQL APIs via
+            Apollo Client to enable real-time data synchronization and state
+            management.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Collaborated with cross-functional teams to implement features such
+            as role-based access control, secure authentication mechanisms, and
+            comprehensive dashboards for monitoring stock levels and
+            distribution metrics. Ensured compliance with healthcare data
+            standards and optimized performance to support the platform's
+            mission of improving access to cancer treatment nationwide.
+          </p>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Tech Stack
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Next.js &nbsp TypeScript &nbsp GraphQL &nbsp Apollo Client &nbsp
+            REST APIs &nbsp Material-UI &nbsp JWT Authentication
+          </p>
+          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
+            <a
+              href="https://ncap.emgeresources.com/auth/login"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
+              >
+                Live Demo
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- Right column -->
+        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
+          <img
+            src="/layouts/assets/ncap.png"
+            alt="NCAP Platform"
+            class="rounded-3xl text-white"
+          />
+          <div class="flex items-center mt-10 justify-center">
+            <div>
+              <a href="#project-seven">
+                <button
+                  class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
+                >
+                  <span class="text-white text-sm font-montserrat font-thin"
+                    >Next</span
+                  >
+                </button>
+              </a>
+              <div class="mx-5 mt-2">
+                <span class="m_scroll_arrows one"></span>
+                <span class="m_scroll_arrows two"></span>
+                <span class="m_scroll_arrows three"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project Six -->
+
+      <div
+        class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        id="project-seven"
+      >
+        <div
+          class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
+        >
+          <h1
+            class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-12 underline decoration-slate-500"
+          >
+            IHC - Immunohistochemistry Portal
+          </h1>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Approach
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Contributed to the development of the IHC Portal, a platform
+            designed to facilitate immunohistochemistry services and resources.
+            Utilized Next.js and Material UI to create responsive and
+            user-friendly interfaces, ensuring seamless navigation and
+            accessibility. Integrated GraphQL APIs via Apollo Client for
+            efficient data fetching and state management.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Implemented features such as secure authentication mechanisms, user
+            dashboards, and resource libraries. Collaborated with
+            cross-functional teams to ensure compliance with data standards and
+            optimized performance to support the platform's objectives.
+          </p>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Tech Stack
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            React &nbsp TypeScript &nbsp Material-UI &nbsp Redux &nbsp JWT
+            Authentication
+          </p>
+          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
+            <a
+              href="https://ihc.emgeresources.com/auth/login"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
+              >
+                Live Demo
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- Right column -->
+        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
+          <img
+            src="/layouts/assets/ihc.png"
+            alt="IHC Platform"
+            class="rounded-3xl text-white"
+          />
+        </div>
+      </div>
+      <!-- Project Seven -->
+
+      <div
+        class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        id="project-eight"
+      >
+        <div
+          class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
+        >
+          <h1
+            class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-12 underline decoration-slate-500"
+          >
+            NEITI - Nigeria Extractive Industries Transparency Initiative
+          </h1>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Approach
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            The Nigeria Extractive Industries Transparency Initiative (NEITI) is
+            the national chapter of the global Extractive Industries
+            Transparency Initiative (EITI) mandated by law (The NEITI Act 2007)
+            to promote transparency and accountability in the management of
+            Nigeria's oil, gas and mining revenues. The NEITI website serves as
+            a dynamic platform, meticulously designed to present comprehensive
+            insights into Nigeria's oil, gas, and mining sectors. It stands as a
+            beacon for transparency, revealing crucial information about revenue
+            management.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            The website incorporates intricate logic to interrelate various
+            aspects, offering a nuanced perspective on the management and
+            stakeholders involved in Nigeria's extractive industries. This
+            includes detailed insights into the roles of different stockholders,
+            enabling a comprehensive view of the industry landscape.
+          </p>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Tech Stack
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            React &nbsp Material UI &nbsp Redux &nbsp Axios
+          </p>
+          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
+            <a
+              href="https://www.neiti.gov.ng/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
+              >
+                Live Demo
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- Right column -->
+        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
+          <img
+            src="/layouts/assets/neiti-project.png"
+            alt="NEITI Platform"
+            class="rounded-3xl text-white"
+          />
+          <div class="flex items-center mt-10 justify-center">
+            <div>
+              <a href="#project-nine">
+                <button
+                  class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
+                >
+                  <span class="text-white text-sm font-montserrat font-thin"
+                    >Next</span
+                  >
+                </button>
+              </a>
+              <div class="mx-5 mt-2">
+                <span class="m_scroll_arrows one"></span>
+                <span class="m_scroll_arrows two"></span>
+                <span class="m_scroll_arrows three"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project Eight -->
+
+      <div
+        class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        id="project-nine"
+      >
+        <div
+          class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
+        >
+          <h1
+            class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-12 underline decoration-slate-500"
+          >
+            National Teachers Institute
+          </h1>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Approach
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            The National Teachers Institute website serves as the digital
+            gateway to the institute, providing a comprehensive repository of
+            information about the institution's mission, programs, and services.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            The implementation of student and admin dashboards has
+            revolutionized the way information is accessed and managed at the
+            National Teachers Institute. Students benefit from a streamlined
+            process for handling their academic affairs, while administrators
+            enjoy a secure and efficient system for student information
+            management.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Student Dashboard: Engineered an intuitive and user-friendly student
+            dashboard, offering students a centralized hub to view and manage
+            their personal details, as well as facilitating hassle-free fee
+            payment processes.
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            Admin Dashboard: Led the development of a sophisticated admin
+            dashboard with robust permission-based access. Different admin roles
+            were meticulously implemented, each with distinct permissions
+            tailored to their responsibilities.
+          </p>
+          <p class="main-font font-semibold font-montserrat text-xl mt-16">
+            Tech Stack
+          </p>
+          <p
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+          >
+            React &nbsp Redux &nbsp Material UI
+          </p>
+          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
+            <a
+              href="https://my.nti.edu.ng/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
+              >
+                Live Demo
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- Right column -->
+        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
+          <img
+            src="/layouts/assets/nti-project.png"
+            alt="National Teachers Institute Platform"
+            class="rounded-3xl text-white"
+          />
+          <div class="flex items-center mt-10 justify-center">
+            <div>
+              <a href="#project-ten">
+                <button
+                  class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
+                >
+                  <span class="text-white text-sm font-montserrat font-thin"
+                    >Next</span
+                  >
+                </button>
+              </a>
+              <div class="mx-5 mt-2">
+                <span class="m_scroll_arrows one"></span>
+                <span class="m_scroll_arrows two"></span>
+                <span class="m_scroll_arrows three"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project Nine -->
+      <div
+        class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+      >
+        <!-- Left column -->
+        <div
+          class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
+        >
+          <h1
+            class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-12 underline decoration-slate-500"
+          >
             Afiari Technologies
           </h1>
           <p class="main-font font-semibold font-montserrat text-xl mt-16">
             Approach
           </p>
           <p
-            class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
           >
             Afiari is an ecommerce site where users can get their food items
             without going to the market. Afiari aims at reducing the stress of
@@ -226,7 +923,7 @@
             Tech Stack
           </p>
           <p
-            class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
+            class="font-light font-montserra text-white text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
           >
             Nextjs &nbsp materia-ui &nbsp Azure &nbsp Redux Toolkit
           </p>
@@ -248,12 +945,11 @@
         <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
           <img
             src="/layouts/assets/project-one.png"
-            alt="project name"
+            alt="Afiari Technologies"
             class="rounded-3xl text-white"
           />
           <div class="flex items-center mt-10 justify-center">
             <div>
-              <!-- scrolls to the second project -->
               <a href="#project-two">
                 <button
                   class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
@@ -272,451 +968,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Project Two -->
-
-      <div
-              class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
-              id="project-two"
-      >
-        <!-- Left column -->
-        <div
-                class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
-        >
-          <h1
-                  class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-5 underline decoration-slate-500"
-          >
-            Nigeria Extractive Industries Transparency Initiative (NEITI)
-          </h1>
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Approach
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            The Nigeria Extractive Industries Transparency Initiative (NEITI) is the national chapter of the global Extractive Industries Transparency Initiative (EITI) mandated by law (The NEITI Act 2007) to promote transparency and accountability in the management of Nigeria’s oil, gas and mining revenues. The NEITI website serves as a dynamic platform, meticulously designed to present comprehensive insights into Nigeria's oil, gas, and mining sectors. It stands as a beacon for transparency, revealing crucial information about revenue management.
-
-
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            The website incorporates intricate logic to interrelate various aspects, offering a nuanced perspective on the management and stakeholders involved in Nigeria's extractive industries. This includes detailed insights into the roles of different stockholders, enabling a comprehensive view of the industry landscape. Joining this transformative project, I honed my skills in problem-solving and reasoning, contributing to the creation of a platform that goes beyond data presentation, offering a deeper understanding of the complexities inherent in the oil, gas, and mining sectors.
-          </p>
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Tech Stack
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            React &nbsp Material UI &nbsp Redux &nbsp Axios
-          </p>
-          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
-            <a
-                    href="https://www.neiti.gov.ng/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-            >
-              <button
-                      class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
-              >
-                <span>Live Demo</span>
-              </button>
-            </a>
-<!--            <a-->
-<!--                    href="https://github.com/ibrahimbank/real-estate-market-app "-->
-<!--                    target="_blank"-->
-<!--                    rel="noopener noreferrer"-->
-<!--            >-->
-<!--              <button-->
-<!--                      class="px-8 py-4 bg-button rounded-xl text-white font-bold font-poppins mt-16 flex items-center text-xl w-full sm:w-auto hover:border-2 hover:bg-slate-800"-->
-<!--              >-->
-<!--                <span class="">Source Code</span>-->
-<!--              </button>-->
-<!--            </a>-->
-          </div>
-        </div>
-        <!-- Right column -->
-        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
-          <img
-                  src="/layouts/assets/neiti-project.png"
-                  alt="project name"
-                  class="rounded-3xl text-white"
-          />
-          <div class="flex items-center mt-10 justify-center">
-            <div>
-              <a href="#project-three">
-              <button
-                      class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
-              >
-                <span class="text-white text-sm font-montserrat font-thin"
-                >Next</span
-                >
-
-              </button>
-              </a>
-              <div class="mx-5 mt-2">
-                <span class="m_scroll_arrows one"></span>
-                <span class="m_scroll_arrows two"></span>
-                <span class="m_scroll_arrows three"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project Three -->
-
-      <div
-              class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
-              id="project-three"
-      >
-        <!-- Left column -->
-        <div
-                class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
-        >
-          <h1
-                  class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-5 underline decoration-slate-500"
-          >
-            National Teachers Institute
-          </h1>
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Approach
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            The National Teachers Institute website serves as the digital gateway to the institute, providing a comprehensive repository of information about the institution's mission, programs, and services.
-
-
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            The implementation of student and admin dashboards has revolutionized the way information is accessed and managed at the National Teachers Institute. Students benefit from a streamlined process for handling their academic affairs, while administrators enjoy a secure and efficient system for student information management. <br/>
-
-            Being instrumental in the development of these dashboards, I gained valuable experience in user interface design, database management, and security protocols. This project exemplifies my commitment to creating practical and user-friendly solutions that enhance the overall efficiency of educational institutions.<br/><br/><br/>
-
-            Student Dashboard: Engineered an intuitive and user-friendly student dashboard, offering students a centralized hub to view and manage their personal details, as well as facilitating hassle-free fee payment processes.<br/><br/><br/>
-
-            Admin Dashboard: Led the development of a sophisticated admin dashboard with robust permission-based access. Different admin roles were meticulously implemented, each with distinct permissions tailored to their responsibilities.
-          </p>
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Tech Stack
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            React &nbsp Redux &nbsp Material UI
-          </p>
-          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
-            <a
-                    href="https://my.nti.edu.ng/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-            >
-              <button
-                      class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
-              >
-                <span>Live Demo</span>
-              </button>
-            </a>
-
-          </div>
-        </div>
-        <!-- Right column -->
-        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
-          <img
-                  src="/layouts/assets/mynti-project.png"
-                  alt="project name"
-                  class="rounded-3xl text-white"
-          />
-          <div class="flex items-center mt-10 justify-center">
-            <div>
-              <a href="#project-four">
-              <button
-                      class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
-              >
-                <span class="text-white text-sm font-montserrat font-thin"
-                >Next</span
-                >
-              </button>
-              </a>
-              <div class="mx-5 mt-2">
-                <span class="m_scroll_arrows one"></span>
-                <span class="m_scroll_arrows two"></span>
-                <span class="m_scroll_arrows three"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project Four -->
-
-      <div
-              class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
-              id="project-four"
-      >
-        <!-- Left column -->
-        <div
-                class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
-        >
-          <h1
-                  class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-5 underline decoration-slate-500"
-          >
-            Anutio
-          </h1>
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Approach
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            Anutio provides you evidence of what you are truly great at and align your career path to your life priorities and your unique personality. We offer you a one-stop solution to identify your transferable skills and the various lucrative career pathways you never knew existed, track your progress, and compile your career achievements on the go.<br/>
-            As a key contributor to the Anutio education platform, I played a pivotal role in enhancing the user experience through the implementation of innovative features that connect students, universities, and employers seamlessly.
-          </p> <p
-                class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-        >
-          One of the standout features I introduced is a robust chat system that facilitates real-time communication among students, universities, and employers. This feature fosters collaboration, enabling swift and direct interaction, and ultimately strengthening the connections within the Anutio community.<br/><br/>
-          I spearheaded the development of a unique group-like feature called Circles, empowering registered students to create circles and invite others to join. This dynamic functionality cultivates a sense of community within the platform, promoting collaboration and knowledge-sharing among peers.<br/><br/>
-
-        </p> <p
-                class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-        >
-          Student Dashboard: Crafted a student dashboard that centralizes key information, providing students with an intuitive platform to manage their academic journey, engage in circles, and explore opportunities.<br/><br/>
-
-          University Dashboard: Developed a comprehensive university dashboard, enabling administrators to efficiently handle student interactions, monitor circles, and engage with potential employers.<br/><br/>
-
-          Employer Dashboard: Implemented a specialized dashboard for employers, offering a seamless interface to connect with students, explore circles, and identify potential candidates for collaboration.<br/><br/>
-
-        </p>
-
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Tech Stack
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            React &nbsp Express &nbsp MongoDB &nbsp Redux &nbsp Material UI
-          </p>
-          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
-            <a
-                    href="https://anutio.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-            >
-              <button
-                      class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
-              >
-                <span>Live Demo</span>
-              </button>
-            </a>
-
-          </div>
-        </div>
-        <!-- Right column -->
-        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
-          <img
-                  src="/layouts/assets/anutio.png"
-                  alt="project name"
-                  class="rounded-3xl text-white"
-          />
-          <div class="flex items-center mt-10 justify-center">
-            <div>
-              <a href="#project-five">
-              <button
-                      class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
-              >
-                <span class="text-white text-sm font-montserrat font-thin"
-                >Next</span
-                >
-              </button>
-              </a>
-              <div class="mx-5 mt-2">
-                <span class="m_scroll_arrows one"></span>
-                <span class="m_scroll_arrows two"></span>
-                <span class="m_scroll_arrows three"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project Five -->
-
-      <div
-              class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
-              id="project-five"
-      >
-        <!-- Left column -->
-        <div
-                class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
-        >
-          <h1
-                  class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-5 underline decoration-slate-500"
-          >
-           Amazing Trips
-          </h1>
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Approach
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            Within the dynamic realm of travel, I took a lead role in developing the Amazing Trips platform—an all-encompassing solution that allows users to effortlessly book flights, secure accommodations, and embark on unforgettable journeys.<br/><br/>
-            The Amazing Trips platform extends beyond a user-friendly website, incorporating tailored dashboards for different user types. This cohesive approach ensures a consistent and seamless experience, whether users are planning their next adventure or administrators are managing the platform.
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            User Dashboard: Designed an intuitive user dashboard, providing travelers with a centralized space to manage their bookings, preferences, and travel itineraries. This interface ensures a seamless and personalized experience for every user.<br/><br/>
-
-            Admin Dashboard: Developed a robust admin dashboard equipped with powerful tools to manage bookings, track user activities, and administer the platform efficiently. The admin dashboard operates on a permission-based system, allowing different admin roles to access specific functionalities.<br/><br/>
-          </p> <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-          The Amazing Trips platform has redefined travel planning, offering users a one-stop solution for booking flights and accommodations with ease. The role-specific dashboards and permission-based system contribute to a secure and personalized user experience, making travel planning a joy for both users and administrators.
-          </p>
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Tech Stack
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            React &nbsp Redux toolkit
-          </p>
-          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
-            <a
-                    href="https://real-estate-market-app.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-            >
-              <button
-                      class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
-              >
-                <span>Live Demo</span>
-              </button>
-            </a>
-
-          </div>
-        </div>
-        <!-- Right column -->
-        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
-          <img
-                  src="/layouts/assets/amazingtrips.png"
-                  alt="project name"
-                  class="rounded-3xl text-white"
-          />
-          <div class="flex items-center mt-10 justify-center">
-            <div>
-              <a href="#project-six">
-              <button
-                      class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
-              >
-                <span class="text-white text-sm font-montserrat font-thin"
-                >Next</span
-                >
-              </button>
-              </a>
-              <div class="mx-5 mt-2">
-                <span class="m_scroll_arrows one"></span>
-                <span class="m_scroll_arrows two"></span>
-                <span class="m_scroll_arrows three"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project six -->
-
-      <div
-              class="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center"
-              id="project-six"
-      >
-        <!-- Left column -->
-        <div
-                class="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden"
-        >
-          <h1
-                  class="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-5 underline decoration-slate-500"
-          >
-            Real Estate Market App
-          </h1>
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Approach
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            A simple app where you can sell and buy a house
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            The listings use Google geocoding to get the coords from the address
-            field.
-          </p>
-          <p class="main-font font-semibold font-montserrat text-xl mt-16">
-            Tech Stack
-          </p>
-          <p
-                  class="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left"
-          >
-            React &nbsp Firebase
-          </p>
-          <div class="flex space-x-8 my-2 md:items-center justify-center mb-16">
-            <a
-                    href="https://real-estate-market-app.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-            >
-              <button
-                      class="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-16 flex items-center space-x-3 border-solid border-2 border-white text-xl sm:w-auto hover:border-2 hover:bg-slate-800"
-              >
-                <span>Live Demo</span>
-              </button>
-            </a>
-            <a
-                    href="https://github.com/ibrahimbank/real-estate-market-app "
-                    target="_blank"
-                    rel="noopener noreferrer"
-            >
-              <button
-                      class="px-8 py-4 bg-button rounded-xl text-white font-bold font-poppins mt-16 flex items-center text-xl w-full sm:w-auto hover:border-2 hover:bg-slate-800"
-              >
-                <span class="">Source Code</span>
-              </button>
-            </a>
-          </div>
-        </div>
-        <!-- Right column -->
-        <div class="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
-          <img
-                  src="/layouts/assets/project-two.png"
-                  alt="project name"
-                  class="rounded-3xl text-white"
-          />
-          <div class="flex items-center mt-10 justify-center">
-            <div>
-              <button
-                      class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:bg-slate-800"
-              >
-                <span class="text-white text-sm font-montserrat font-thin"
-                >Next</span
-                >
-              </button>
-              <div class="mx-5 mt-2">
-                <span class="m_scroll_arrows one"></span>
-                <span class="m_scroll_arrows two"></span>
-                <span class="m_scroll_arrows three"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </section>
 
     <!-- Skills section -->
@@ -819,7 +1070,11 @@
           >
             Contact
           </h1>
-          <form class="w-full" action="https://formspree.io/f/xgegwkdy" method="POST">
+          <form
+            class="w-full"
+            action="https://formspree.io/f/xgegwkdy"
+            method="POST"
+          >
             <div class="mb-6 mt-20">
               <label
                 for="fullName"
@@ -871,13 +1126,6 @@
               Send
             </button>
           </form>
-        </div>
-        <div class="w-full xl:w-2/5 p-12 overflow-hidden">
-          <img
-            src="./layouts/assets/profile3.png"
-            alt="Reporting"
-            class="rounded-3xl mx-auto w-full md:w-2/5"
-          />
         </div>
       </div>
     </section>
